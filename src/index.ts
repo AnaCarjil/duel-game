@@ -21,7 +21,7 @@ let char1Wins = 0;
 let char2Wins = 0;
 
 for (let i = 0; i < simulations; i++) {
-  config.isSilent = true; // ✅ IMPORTANT: set BEFORE creating characters
+  config.isSilent = true; 
 
   const c1 = new Character("Character 1");
   const c2 = new Character("Character 2");
